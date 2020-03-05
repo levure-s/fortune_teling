@@ -1,0 +1,45 @@
+<!DOCTYPE html><html lang="ja">
+<head>
+  <meta charset = "utf-8">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="/static/application.css">
+
+</head>
+<body>
+  <div class="container">
+    <form class="form-inline" action="/edit" method="post">
+      <dl class="">
+        <dt>天祥星</dt>
+        <dd>
+          <select name="juunitensho">
+          <option value="貴人">貴人</option>
+          <option value="騰蛇">騰蛇</option>
+          <option value="朱雀">朱雀</option>
+          <option value="六合">六合</option>
+          <option value="勾陳">勾陳</option>
+          <option value="青龍">青龍</option>
+          <option value="天空">天空</option>
+          <option value="白虎">白虎</option>
+          <option value="太常">太常</option>
+          <option value="玄武">玄武</option>
+          <option value="太陰">太陰</option>
+          <option value="天后">天后</option>            
+          </select>
+        </dd>
+
+        <dt>テキスト</dt>
+        <dd>
+          <textarea name=text></textarea>
+        </dd>
+
+        <dd>
+          <button type="submit" class="btn btn-primary">入力</button>
+        </dd>
+      </dl>
+
+    </form>
+
+
+  </div>
+</body>
+</html>

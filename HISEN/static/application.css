@@ -1,0 +1,10 @@
+body            { font-family: sans-serif; background: #eee; padding: 200px 0 100px;}
+a, h1, p       { color: #377ba8; }
+h1, p          { font-family: 'Georgia', serif; margin: 0; }
+h1              { border-bottom: 2px solid #eee; }
+p              { font-size: 1.2em; }
+select{width:250px; height:40px;}
+option{text-align: center;}
+textarea{width:500px; height:160px; font-size:20px;}
+
+.container {text-align:center;}

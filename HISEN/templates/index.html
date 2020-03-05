@@ -1,0 +1,20 @@
+<!DOCTYPE html><html lang="ja">
+<head>
+  <meta charset = "utf-8">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="/static/application.css">
+
+</head>
+<body>
+  <div class="container">
+    <a href="{{ url_for('edit') }}">入力する</a>
+
+    {% for ikka in Ikka %}
+    <p>天祥星：{{ikka.juunitensho}}</p>
+    <p>{{ikka.text}}</p>
+    {% endfor %}
+
+
+  </div>
+</body>
+</html>

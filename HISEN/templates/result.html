@@ -1,0 +1,45 @@
+<!DOCTYPE html><html lang="ja">
+<head>
+  <meta charset = "utf-8">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="/static/application.css">
+
+</head>
+<body>
+  <div class="container">
+    {% if kanshi_year %}
+    <p>年干支：{{kanshi_year}}</p>
+    {% endif %}
+
+    {% if gessho %}
+    <p>月将:{{gessho}}</p>
+    {% endif %}
+
+    {% if kanshi_day %}
+    <p>日干支：{{kanshi_day}}</p>
+    {% endif %}
+
+    {% if kyoku %}
+    <p>{{kyoku}}局</p>
+    {% endif %}
+
+    {% if tyuya %}
+    <p>{{tyuya}}</p>
+    {% endif %}
+
+    {% if juunitensho %}
+    <p>天祥星：{{juunitensho}}</p>
+    {% endif %}
+
+    {% if text %}
+    <p>{{text}}</p>
+    {% endif %}
+
+
+
+  </div>
+</body>
+
+
+
+</html>
